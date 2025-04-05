@@ -1,13 +1,15 @@
 # Link to project kaggle: https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset
 # link to specific dataset: https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset?select=players_22.csv
 
+import os
 import streamlit as st
 import pandas as pd
 
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv('players_22.csv', low_memory=False)
+    file_path = os.path.join(os.path.dirname(__file__), 'players_22.csv')
+    df = pd.read_csv(file_path, low_memory=False)
     
     # Keep only relevant columns
     df = df[['short_name', 'club_name', 'overall', 'value_eur', 'nationality_name',
