@@ -1,3 +1,6 @@
+#Streamlit is a Python tool that turns scripts into simple web apps. 
+# It’s perfect for quickly sharing data projects without needing web development skills.
+
 import streamlit as st
 
 # st.title("My First App")

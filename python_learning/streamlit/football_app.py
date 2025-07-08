@@ -1,3 +1,6 @@
+#Streamlit is a Python tool that turns scripts into simple web apps. 
+# It’s perfect for quickly sharing data projects without needing web development skills.
+
 # Link to project kaggle: https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset
 # link to specific dataset: https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset?select=players_22.csv
 
